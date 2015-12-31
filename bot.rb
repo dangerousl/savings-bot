@@ -5,7 +5,7 @@ require 'logger'
 
 $logger = Logger.new(STDOUT, Logger::DEBUG)
 
-$bot = TelegramBot.new(token: '146791858:AAEtUPzZ0RQ7E_l-UOvkECH3xNuZggWjVlc', logger: $logger)
+$bot = TelegramBot.new(token: 'YOUR_TOKEN_HERE', logger: $logger)
 $logger.debug "starting telegram bot"
 
 def add(user,msg)
